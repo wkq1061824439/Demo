@@ -25,7 +25,7 @@ import com.example.asus.mysqlitedemo.sqlite.MySqliteOpenHalper;
 
 import java.util.ArrayList;
 
-public class MainActivity extends AppCompatActivity {
+public class ListViewActivity extends AppCompatActivity {
 
     private MySqliteOpenHalper mySqlite;
     private SQLiteDatabase db;
