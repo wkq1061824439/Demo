@@ -16,7 +16,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".LoginActivity" />
-        <activity android:name=".ListViewActivity"></activity>
+        <activity android:name=".ListViewActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".XiangQingActivity"></activity>
     </application>
 
 </manifest>
