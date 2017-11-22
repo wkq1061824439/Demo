@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        imageView = (ImageView) findViewById(R.id.iv_show);
         Drawable draw= ContextCompat.getDrawable(MainActivity.this,R.mipmap.login);
         imageView.setImageDrawable(draw);
         Handler m=new Handler();
