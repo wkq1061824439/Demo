@@ -19,7 +19,7 @@ import java.util.ArrayList;
 
 public class Http {
 
-    public static final String start_contact="Http://10.101.1.39:8080/Usersss/list.action";
+    public static final String start_contact="Http://10.101.1.46:8080/stu/list";
     public static BufferedReader http(String urls){
         HttpURLConnection conn=null;
         InputStream his=null;
